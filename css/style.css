@@ -1,21 +1,4 @@
 h1{
-  background: #ff0000; /* Fondo rojo */
-  color: #ffffff; /* Texto amarillo */
-  padding: 18px 0; /* Espacio interno arriba y abajo */
-  text-align: center; /* Centra el texto */
-  border: 3px solid #000; /* Borde negro */
-  margin: 20px auto; /* Centrado con margen */
-  max-width: 600px; /* Ancho máximo */
-}
-body {
-  font-family: 'Zilla Slab', serif; /* Fuente principal */
-  background-size: cover; /* Ajusta la imagen al tamaño de pantalla */
-  background-attachment: fixed; /* Fondo fijo al hacer scroll */
-  color: #fff; /* Color de texto predeterminado */
-  margin: 0; /* Elimina márgenes por defecto */
-  padding: 0; /* Elimina padding por defecto */
-}
-h1 {
   font-family: "Zilla Slab", serif;
   font-weight: 300;
   font-style: normal;
