@@ -34,7 +34,7 @@ body {
   margin: 0; /* Elimina márgenes por defecto */
   padding: 0; /* Elimina padding por defecto */
 }
-.sinners-grid {
+.Agent-grid {
   display: grid; /* Activa grid layout */
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   gap: 20px; /* Espacio entre tarjetas */
