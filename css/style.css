@@ -10,3 +10,18 @@ h1{
   margin: 20px auto; /* Centrado con margen */
   max-width: 300px; /* Ancho máximo */
 }
+p {
+  line-height: 1.7; /* Altura de línea para mejor lectura */
+  font-size: 1.15rem; /* Tamaño de fuente */
+  margin-bottom: 15px; /* Espacio debajo de cada párrafo */
+  text-align: justify; /* Justifica texto */
+  color: azure;
+}
+.texto-contenedor {
+  background: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+  padding: 20px 25px; /* Espacio alrededor del contenido */
+  border-radius: 12px; /* Bordes redondeados */
+  margin: 20px auto; /* Centrado con margenes */
+  max-width: 900px; /* Ancho máximo */
+  box-shadow: 0 0 15px rgba(0,0,0,0.6); /* Sombra suave */
+}
