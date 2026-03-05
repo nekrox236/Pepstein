@@ -1,0 +1,9 @@
+h1 {
+  font-family: 'Archivo Black', sans-serif; /* Fuente especial para el título */
+  background: #B02727; /* Fondo rojo */
+  color: #E3F307; /* Texto amarillo */
+  padding: 18px 0; /* Espacio interno arriba y abajo */
+  text-align: center; /* Centra el texto */
+  border: 3px solid #000; /* Borde negro */
+  margin: 20px auto; /* Centrado con margen */
+  max-width: 600px; /* Ancho máximo */
