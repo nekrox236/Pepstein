@@ -2,5 +2,11 @@ h1{
   font-family: "Zilla Slab", serif;
   font-weight: 300;
   font-style: normal;
-  margin-left: 690px;
+  background: #B02727; /* Fondo rojo */
+  color: #ffffff; /* Texto amarillo */
+  padding: 18px 0; /* Espacio interno arriba y abajo */
+  text-align: center; /* Centra el texto */
+  border: 2px solid #000; /* Borde negro */
+  margin: 20px auto; /* Centrado con margen */
+  max-width: 300px; /* Ancho máximo */
 }
