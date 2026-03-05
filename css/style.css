@@ -77,3 +77,32 @@ body {
 .Agent-section h3 {
   font-size: 2rem; /* Tamaño grande para el título */
 }
+.img-container {
+  position: relative; /* Permite posicionar la descripción */
+  overflow: hidden; /* Oculta lo que rebasa */
+}
+
+/* Texto que aparece solo en hover */
+.img-container .desc {
+  position: absolute; /* Posicionamiento sobre la imagen */
+  bottom: -100%; /* Empieza oculto abajo */
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.85); /* Fondo para mejor lectura */
+  color: #fff;
+  padding: 8px; /* Espacio interno */
+  font-size: 0.9rem;
+  text-align: center;
+  opacity: 0; /* Oculto inicialmente */
+  transition: bottom 0.25s ease, opacity 0.25s ease; /* Transición suave */
+}
+
+/* Efecto cuando se pasa el cursor por la imagen */
+.img-container:hover img {
+  transform: scale(1.07); /* Zoom suave */
+}
+
+.img-container:hover .desc {
+  bottom: 0; /* Baja la descripción */
+  opacity: 1; /* Se hace visible */
+}
