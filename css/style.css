@@ -15,3 +15,8 @@ body {
   margin: 0; /* Elimina márgenes por defecto */
   padding: 0; /* Elimina padding por defecto */
 }
+h1 {
+  font-family: "Zilla Slab", serif;
+  font-weight: 300;
+  font-style: normal;
+}
