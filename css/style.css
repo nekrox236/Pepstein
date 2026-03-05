@@ -34,3 +34,46 @@ body {
   margin: 0; /* Elimina márgenes por defecto */
   padding: 0; /* Elimina padding por defecto */
 }
+.sinners-grid {
+  display: grid; /* Activa grid layout */
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 20px; /* Espacio entre tarjetas */
+  justify-items: center; /* Centra dentro del grid */
+}
+
+/* TARJETA DE CADA PERSONAJE */
+.Agent-card {
+  background: rgba(255, 255, 255, 0.1); /* Fondo transparente */
+  padding: 10px; /* Espacio interno */
+  border-radius: 8px; /* Bordes redondeados */
+  width: 100%;
+  max-width: 160px; /* Ancho máximo */
+  box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Sombra */
+}
+
+/* Nombre del personaje */
+.Agent-card p {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+/* Imágenes sin hover aún */
+.Agent-card img {
+  width: 100%;
+  border-radius: 6px; /* Bordes ligeramente redondeados */
+  transition: transform 0.3s ease;
+}
+.Agent-section {
+  background: rgba(0, 0, 0, 0.65); /* Fondo oscuro semitransparente */
+  padding: 30px 20px; /* Espacio interno */
+  margin: 40px auto; /* Margen alrededor */
+  max-width: 1200px; /* Ancho máximo */
+  border-radius: 10px; /* Bordes redondeados */
+  color: #fff; /* Texto blanco */
+  text-align: center; /* Centrar contenido */
+}
+
+.Agent-section h3 {
+  font-size: 2rem; /* Tamaño grande para el título */
+}
