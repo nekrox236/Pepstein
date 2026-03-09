@@ -27,7 +27,7 @@ p {
 }
 body {
   font-family: 'Zilla Slab', serif; /* Fuente principal */
-  background-image: url("../image/valowall.jpg"); /* Imagen de fondo */
+  background-image: url("../image/omenwall.jpg"); /* Imagen de fondo */
   background-size: cover; /* Ajusta la imagen al tamaño de pantalla */
   background-attachment: fixed; /* Fondo fijo al hacer scroll */
   color: #fff; /* Color de texto predeterminado */
