@@ -1,0 +1,111 @@
+h1{
+  font-family: "Zilla Slab", serif;
+  font-weight: 300;
+  font-style: normal;
+  background: #B02727; /* Fondo rojo */
+  color: #ffffff; /* Texto amarillo */
+  padding: 18px 0; /* Espacio interno arriba y abajo */
+  text-align: center; /* Centra el texto */
+  border: 2px solid #000; /* Borde negro */
+  margin: 20px auto; /* Centrado con margen */
+  max-width: 300px; /* Ancho máximo */
+}
+p {
+  line-height: 1.7; /* Altura de línea para mejor lectura */
+  font-size: 1.15rem; /* Tamaño de fuente */
+  margin-bottom: 15px; /* Espacio debajo de cada párrafo */
+  text-align: justify; /* Justifica texto */
+  color: azure;
+}
+.texto-contenedor {
+  background: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+  padding: 20px 25px; /* Espacio alrededor del contenido */
+  border-radius: 12px; /* Bordes redondeados */
+  margin: 20px auto; /* Centrado con margenes */
+  max-width: 900px; /* Ancho máximo */
+  box-shadow: 0 0 15px rgba(0,0,0,0.6); /* Sombra suave */
+}
+body {
+  font-family: 'Zilla Slab', serif; /* Fuente principal */
+  background-image: url("../image/valowall.jpg"); /* Imagen de fondo */
+  background-size: cover; /* Ajusta la imagen al tamaño de pantalla */
+  background-attachment: fixed; /* Fondo fijo al hacer scroll */
+  color: #fff; /* Color de texto predeterminado */
+  margin: 0; /* Elimina márgenes por defecto */
+  padding: 0; /* Elimina padding por defecto */
+}
+.Agent-grid {
+  display: grid; /* Activa grid layout */
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 20px; /* Espacio entre tarjetas */
+  justify-items: center; /* Centra dentro del grid */
+}
+
+/* TARJETA DE CADA PERSONAJE */
+.Agent-card {
+  background: rgba(255, 255, 255, 0.1); /* Fondo transparente */
+  padding: 10px; /* Espacio interno */
+  border-radius: 8px; /* Bordes redondeados */
+  width: 100%;
+  max-width: 160px; /* Ancho máximo */
+  box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Sombra */
+}
+
+/* Nombre del personaje */
+.Agent-card p {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+/* Imágenes sin hover aún */
+.Agent-card img {
+  width: 100%;
+  border-radius: 6px; /* Bordes ligeramente redondeados */
+  transition: transform 0.3s ease;
+}
+.Agent-section {
+  background: rgba(0, 0, 0, 0.65); /* Fondo oscuro semitransparente */
+  padding: 30px 20px; /* Espacio interno */
+  margin: 40px auto; /* Margen alrededor */
+  max-width: 1200px; /* Ancho máximo */
+  border-radius: 10px; /* Bordes redondeados */
+  color: #fff; /* Texto blanco */
+  text-align: center; /* Centrar contenido */
+}
+
+.Agent-section h3 {
+  font-size: 2rem; /* Tamaño grande para el título */
+}
+.img-container {
+  position: relative; /* Permite posicionar la descripción */
+  overflow: hidden; /* Oculta lo que rebasa */
+}
+
+/* Texto que aparece solo en hover */
+.img-container .desc {
+  position: absolute; /* Posicionamiento sobre la imagen */
+  bottom: -100%; /* Empieza oculto abajo */
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.85); /* Fondo para mejor lectura */
+  color: #fff;
+  padding: 8px; /* Espacio interno */
+  font-size: 0.9rem;
+  text-align: center;
+  opacity: 0; /* Oculto inicialmente */
+  transition: bottom 0.25s ease, opacity 0.25s ease; /* Transición suave */
+}
+
+/* Efecto cuando se pasa el cursor por la imagen */
+.img-container:hover img {
+  transform: scale(1.07); /* Zoom suave */
+}
+
+.img-container:hover .desc {
+  bottom: 0; /* Baja la descripción */
+  opacity: 1; /* Se hace visible */
+}
+.video {
+margin-left: 530px;
+}
